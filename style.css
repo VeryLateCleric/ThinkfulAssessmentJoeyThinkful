@@ -1,0 +1,44 @@
+body {
+
+  }
+  
+  header {
+
+  }
+  
+  header h1 {
+
+  }
+  
+  header nav {
+
+  }
+  
+  header nav ul {
+
+  }
+  
+  header nav ul li a {
+
+  }
+  header nav ul li:last-child a {
+
+  }
+
+@media all and (min-width: 600px) {
+    header {
+
+    }
+
+    header h1 {
+
+    }
+
+    header nav {
+
+    }
+
+    header nav ul li a {
+
+    }
+}
