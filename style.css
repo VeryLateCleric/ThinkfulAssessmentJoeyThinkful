@@ -35,21 +35,29 @@ body {
   header nav ul li:last-child a {
     margin-right: 0;
   }
+  
+  header nav ul li a:hover {
+    color: gray
+}
 
 @media all and (min-width: 600px) {
     header {
-
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
     }
 
     header h1 {
-
+        font-size: 48px;
+        margin: 14px 0;
+        padding-top: 6px;
     }
 
     header nav {
-
+        margin-top: 14px;
     }
 
-    header nav ul li a {
-
+    header nav ul li a:hover {
+        color: gray
     }
 }
